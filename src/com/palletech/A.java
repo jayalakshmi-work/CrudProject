@@ -1,5 +1,10 @@
-package com.palletech
-public class B
+package com.palletech;
+public class A
 {
-  public int i = 200;
+  public int i;
+  
+  public A(int i)
+  {
+	  this.i = i;
+  }
 }
